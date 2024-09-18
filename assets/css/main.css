@@ -26,7 +26,7 @@
 body {
  font-family:  'League Spartan', sans-serif;
   color: var(--color-default);
-  background-color: #000;
+  background-color: #0D1117;
 }
 
 a {
@@ -148,7 +148,7 @@ h6 {
 
 .scroll-top i {
   font-size: 24px;
-  color: #000;
+  color: #0D1117;
   line-height: 0;
 }
 
@@ -277,7 +277,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 30px 0;
-  background-color: #000;
+  background-color: #0D1117;
 }
 
 .header .logo {
@@ -1146,7 +1146,7 @@ h6 {
   background: var(--color-primary);
   border: 0;
   padding: 10px 35px;
-  color: #000;
+  color: #0D1117;
   transition: 0.4s;
   border-radius: 4px;
 }
@@ -1171,7 +1171,7 @@ h6 {
 .hero {
   width: 100%;
   min-height: 30vh;
-  background: #000;
+  background: #0D1117;
   background-size: cover;
   position: relative;
   padding: 140px 0 60px 0;
@@ -1212,7 +1212,7 @@ h6 {
   border-radius: 4px;
   letter-spacing: 1px;
   transition: 0.3s;
-  color: #000;
+  color: #0D1117;
   background: #D2F65A;
 }
 
@@ -1259,7 +1259,7 @@ h6 {
 }
 
 .mail-icon {
-  color: #000;
+  color: #0D1117;
 
 }
 
@@ -1301,7 +1301,7 @@ h6 {
 .hero {
   width: 100%;
   min-height: 30vh;
-  background: #000;
+  background: #0D1117;
   background-size: cover;
   position: relative;
   padding: 140px 0 60px 0;
