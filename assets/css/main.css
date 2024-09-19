@@ -1323,4 +1323,5 @@ h6 {
 }
 .avatar-img{
   padding: 30px;
+  max-width: 100%;
 }
