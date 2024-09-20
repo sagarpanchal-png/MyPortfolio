@@ -1,18 +1,19 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 
 :root {
-  --font-default:  'League Spartan', sans-serif;
-  --font-primary:  'League Spartan', sans-serif;
-  --font-secondary:  'League Spartan', sans-serif;
+  --font-default:  "Plus Jakarta Sans", sans-serif;
+  --font-primary:  "Plus Jakarta Sans", sans-serif;
+  --font-secondary:  "Plus Jakarta Sans", sans-serif;
 }
 
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #D2F65A;
-  --color-secondary: #161718;
+  --color-primary: #0052cc;
+  --color-secondary: #0d1117;
 }
 
 /* Smooth scroll behavior */
@@ -24,9 +25,9 @@
 # General
 --------------------------------------------------------------*/
 body {
- font-family:  'League Spartan', sans-serif;
+ font-family:  "Plus Jakarta Sans", sans-serif;
   color: var(--color-default);
-  background-color: #0D1117;
+  background-color: #0d1117;
 }
 
 a {
@@ -45,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family:  'League Spartan', sans-serif;
+  font-family:  "Plus Jakarta Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -64,7 +65,7 @@ h6 {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6);
-  font-family:  'League Spartan', sans-serif;
+  font-family:  "Plus Jakarta Sans", sans-serif;
 }
 
 .section-header h2::after {
@@ -81,7 +82,7 @@ h6 {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: 'League Spartan', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   color: #f0f6fc;
 }
 
@@ -98,7 +99,7 @@ h6 {
   font-size: 56px;
   font-weight: 500;
   color: #f0f6fc;
-  font-family:  'League Spartan', sans-serif;
+  font-family:  "Plus Jakarta Sans", sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -112,7 +113,7 @@ h6 {
 }
 
 .page-header .cta-btn {
-  font-family:  'League Spartan', sans-serif;
+  font-family:  "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   display: inline-block;
@@ -126,7 +127,7 @@ h6 {
 }
 
 .page-header .cta-btn:hover {
-  background: #2cbc85;
+  background: #0052cc;
 }
 
 /*--------------------------------------------------------------
@@ -294,7 +295,7 @@ h6 {
   margin: 0;
   font-weight: 400;
   color: #f0f6fc;
-  font-family:  'League Spartan', sans-serif;
+  font-family:  "Plus Jakarta Sans", sans-serif;
 }
 
 .header .logo i {
@@ -363,7 +364,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
-    font-family:  'League Spartan', sans-serif;
+    font-family:  "Plus Jakarta Sans", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 13px;
@@ -493,7 +494,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    font-family:  'League Spartan', sans-serif;
+    font-family:  "Plus Jakarta Sans", sans-serif;
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 400;
@@ -823,7 +824,7 @@ h6 {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  font-family:  'League Spartan', sans-serif;
+  font-family:  "Plus Jakarta Sans", sans-serif;
 }
 
 .gallery-single .portfolio-info h3:after {
@@ -865,7 +866,7 @@ h6 {
 }
 
 .gallery-single .portfolio-info .btn-visit:hover {
-  background: #2cbc85;
+  background: #0052cc;
 }
 
 .gallery-single .portfolio-description h2 {
@@ -873,7 +874,7 @@ h6 {
   font-weight: 700;
   margin-bottom: 20px;
   color: #f0f6fc;
-  font-family:  'League Spartan', sans-serif;
+  font-family:  "Plus Jakarta Sans", sans-serif;
 }
 
 .gallery-single .portfolio-description p {
@@ -1183,7 +1184,7 @@ h6 {
   font-size: 60px !important;
   font-weight: 900;
   color: #f0f6fc;
-  font-family:  'League Spartan', sans-serif;
+  font-family:  "Plus Jakarta Sans", sans-serif;
   text-align: left;
   text-transform: uppercase;
 }
@@ -1196,28 +1197,29 @@ h6 {
 }
 
 .hero p {
-  color: rgba(255, 255, 255, 0.6);
+  color: #bababa;
   margin-bottom: 30px;
   font-size: 18px;
-  font-family:  'League Spartan', sans-serif;
+  font-family:  "Plus Jakarta Sans", sans-serif;
   text-align: left;
+  font-weight: 400;
 }
 
 .hero .btn-get-started {
-  font-family:  'League Spartan', sans-serif;
+  font-family:  "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   display: inline-block;
   padding: 20px 30px;
-  border-radius: 4px;
+  border-radius: 128px;
   letter-spacing: 1px;
   transition: 0.3s;
-  color: #0D1117;
-  background: #D2F65A;
+  color: #fff;
+  background: #0052cc;
 }
 
 .hero .btn-get-started:hover {
-  background: #bef210;
+  background: #0052cc;
 }
 
 @media (max-width: 768px) {
@@ -1226,7 +1228,7 @@ h6 {
     font-size: 40px !important;
     font-weight: 900;
     color: #f0f6fc;
-    font-family:  'League Spartan', sans-serif;
+    font-family:  "Plus Jakarta Sans", sans-serif;
     text-align: left;
     text-transform: uppercase;
   }
@@ -1279,7 +1281,7 @@ h6 {
 .proj-para {
   font-size: 30px;
   opacity: 80%;
-  font-family:  'League Spartan', sans-serif;
+  font-family:  "Plus Jakarta Sans", sans-serif;
 }
 
 .proj-heading {
@@ -1312,8 +1314,8 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 40px;
   font-weight: 900;
-  color: #f0f6fc;
-  font-family: 'League Spartan', sans-serif !important;
+  color: #ccdae7;
+  font-family: "Plus Jakarta Sans", system-ui;
   text-align: left;
   text-transform: uppercase;
 }
