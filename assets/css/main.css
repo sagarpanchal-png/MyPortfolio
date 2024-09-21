@@ -11,9 +11,9 @@
 
 /* Colors */
 :root {
-  --color-default: #fafafa;
-  --color-primary: #0052cc;
-  --color-secondary: #0d1117;
+  --color-default: #0D1117;
+  --color-primary: #7a96c2;
+  --color-secondary: #fff;
 }
 
 /* Smooth scroll behavior */
@@ -24,10 +24,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+html{
+  overflow-x: auto; 
+}
+
 body {
- font-family:  "Plus Jakarta Sans", sans-serif;
+ font-family: "Plus Jakarta Sans", sans-serif;
   color: var(--color-default);
-  background-color: #0d1117;
+  background-color: #fff;
+  /* overflow-y: hidden;  */
 }
 
 a {
@@ -36,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: #D2F65A;
+  color: #1d59db;
   text-decoration: none;
 }
 
@@ -127,7 +133,7 @@ h6 {
 }
 
 .page-header .cta-btn:hover {
-  background: #0052cc;
+  background: #f0f6fc;
 }
 
 /*--------------------------------------------------------------
@@ -149,7 +155,7 @@ h6 {
 
 .scroll-top i {
   font-size: 24px;
-  color: #0D1117;
+  color: #fff;
   line-height: 0;
 }
 
@@ -278,7 +284,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 30px 0;
-  background-color: #0D1117;
+  background-color: #fff;
 }
 
 .header .logo {
@@ -319,7 +325,7 @@ h6 {
 }
 
 .header .header-social-links a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #2e2e2e80;
   padding-left: 15px;
   display: inline-block;
   line-height: 0px;
@@ -328,7 +334,7 @@ h6 {
 }
 
 .header .header-social-links a:hover {
-  color: #D2F65A;
+  color: #0D1117;
 }
 
 @media (max-width: 575px) {
@@ -369,7 +375,7 @@ h6 {
     letter-spacing: 1px;
     font-size: 13px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(46, 46, 46, 0.5);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -379,13 +385,14 @@ h6 {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
+    font-weight: 500;
   }
 
   .navbar a:hover,
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #f0f6fc;
+    color: #0D1117;
   }
 
   .navbar .dropdown ul {
@@ -1172,7 +1179,7 @@ h6 {
 .hero {
   width: 100%;
   min-height: 30vh;
-  background: #0D1117;
+  /* background: #0D1117; */
   background-size: cover;
   position: relative;
   padding: 140px 0 60px 0;
@@ -1183,8 +1190,8 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 60px !important;
   font-weight: 900;
-  color: #f0f6fc;
-  font-family:  "Plus Jakarta Sans", sans-serif;
+  color: #0D1117;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: left;
   text-transform: uppercase;
 }
@@ -1197,12 +1204,13 @@ h6 {
 }
 
 .hero p {
-  color: #bababa;
+  /* color: #bababa; */
+  color:#7f7f83;
   margin-bottom: 30px;
   font-size: 18px;
   font-family:  "Plus Jakarta Sans", sans-serif;
   text-align: left;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .hero .btn-get-started {
@@ -1216,10 +1224,15 @@ h6 {
   transition: 0.3s;
   color: #fff;
   background: #0052cc;
+  box-shadow: 0 0 1px #dfdede;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #1d59db  inset;
 }
 
 .hero .btn-get-started:hover {
-  background: #0052cc;
+  background: #1d59db;
+  box-shadow:600px 0 0 #1d59db inset;
 }
 
 @media (max-width: 768px) {
@@ -1241,12 +1254,12 @@ h6 {
   margin-top: 30px;
   padding: 30px 0;
   font-size: 14px;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid #ebebeb;
 }
 
 .footer .copyright {
   text-align: center;
-  color: rgba(255, 255, 255, 0.8);
+  color: #0D1117;
 }
 
 .footer .credits {
@@ -1282,6 +1295,7 @@ h6 {
   font-size: 30px;
   opacity: 80%;
   font-family:  "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
 }
 
 .proj-heading {
@@ -1303,7 +1317,7 @@ h6 {
 .hero {
   width: 100%;
   min-height: 30vh;
-  background: #0D1117;
+  /* background: #0D1117; */
   background-size: cover;
   position: relative;
   padding: 140px 0 60px 0;
@@ -1312,10 +1326,11 @@ h6 {
 
 .hero h2 {
   margin: 0 0 10px 0;
-  font-size: 40px;
+  font-size: 96px;
   font-weight: 900;
-  color: #ccdae7;
-  font-family: "Plus Jakarta Sans", system-ui;
+  /* color: #ccdae7; */
+  color: #0D1117;
+  font-family: "inter", sans-serif !important;
   text-align: left;
   text-transform: uppercase;
 }
