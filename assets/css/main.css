@@ -12,7 +12,7 @@
 /* Colors */
 :root {
   --color-default: #0D1117;
-  --color-primary: #7a96c2;
+  --color-primary: #0052cc;
   --color-secondary: #fff;
 }
 
@@ -1292,7 +1292,7 @@ h6 {
 --------------------------------------------------------------------------------------------- */
 
 .proj-para {
-  font-size: 30px;
+  font-size: 28px;
   opacity: 80%;
   font-family:  "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
